@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"> "GOBIKE"</string>
+    <array name="genres">
+        <item>Road bike</item>
+        <item>mountain bike</item>
+        <item>Hybrid bikes: a bit of everything</item>
+        <item>Cyclocross bikes</item>
+    </array>
+</resources>

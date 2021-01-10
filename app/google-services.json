@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "860261458388",
+    "project_id": "gobike-22d8d",
+    "storage_bucket": "gobike-22d8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860261458388:android:6b0c85d10139aeb7043641",
+        "android_client_info": {
+          "package_name": "com.my.gobike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860261458388-gb7pc88pt360t7ahsgjv4isl56gdkqf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBSj9xcHTRnLWYJ7QBH2fLO1hfQon1ESI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860261458388-gb7pc88pt360t7ahsgjv4isl56gdkqf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

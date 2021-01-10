@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ff7915"
+    android:paddingHorizontal="30dp">
+
+    <TextView
+        android:id="@+id/Addoffre"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/rectangular_field1"
+        android:text="ADD YOUR OFFER "
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Enter your phone number..."
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="number"
+            android:paddingLeft="60dp"
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/phone"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Enter your location..."
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:paddingLeft="60dp"
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/loc"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/firstdate"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="FROM..."
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="date"
+            android:paddingLeft="60dp"
+            />
+        <Button
+            android:id="@+id/firstdate1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/calendar"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/secondate"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="TO..."
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="date"
+            android:paddingLeft="60dp"
+            />
+        <Button
+            android:id="@+id/secondate2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/calendar"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:entries="@array/genres"
+            android:hint="Add a picture..."
+            android:inputType="date"
+            android:paddingVertical="15dp"
+            android:paddingLeft="60dp"
+            android:textColor="#000000" />
+        <Button
+            android:id="@+id/addpic1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bike"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <Button
+            android:id="@+id/addpic2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bike"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangular_field"
+        android:text="SUBMIT"
+
+
+        android:textAllCaps="false"
+
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFFFF" />
+
+    <!--android:background="@drawable/button_back"-->
+
+
+</LinearLayout>
